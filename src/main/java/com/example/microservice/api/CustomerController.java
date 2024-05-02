@@ -5,6 +5,8 @@ import com.example.microservice.servece.CustomerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.net.URI;
+
 /**
  * @author : savindaJ
  * @date : 2024-05-02
@@ -22,7 +24,7 @@ public class CustomerController {
 
     @PostMapping
     public ResponseEntity<?> saveCustomer(@RequestBody CustomerDTO customerDTO){
-        return ResponseEntity.ok(customerService.saveCustomer(customerDTO));
+        return ResponseEntity.created(URI.create("/api/v1/customer/"+customerService.saveCustomer(customerDTO))).build();
     }
 
     @GetMapping
