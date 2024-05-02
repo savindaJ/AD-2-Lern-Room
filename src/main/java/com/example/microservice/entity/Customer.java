@@ -2,9 +2,7 @@ package com.example.microservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 /**
  * @author : savindaJ
@@ -12,7 +10,8 @@ import lombok.NoArgsConstructor;
  * @since : 0.1.0
  **/
 @Entity
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Customer {
