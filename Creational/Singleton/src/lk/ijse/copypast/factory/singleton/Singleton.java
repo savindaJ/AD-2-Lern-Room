@@ -1,4 +1,4 @@
-package lk.ijse.factory.singleton;
+package lk.ijse.copypast.factory.singleton;
 
 
 /**

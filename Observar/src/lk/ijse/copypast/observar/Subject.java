@@ -1,4 +1,4 @@
-package lk.ijse.observar;
+package lk.ijse.copypast.observar;
 
 import java.util.ArrayList;
 import java.util.List;

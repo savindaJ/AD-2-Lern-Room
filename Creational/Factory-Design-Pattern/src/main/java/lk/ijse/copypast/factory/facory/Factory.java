@@ -1,7 +1,8 @@
-package lk.ijse.factory.facory;
+package lk.ijse.copypast.factory.facory;
 
+import lk.ijse.copypast.factory.devices.*;
 import lk.ijse.factory.devices.*;
-import lk.ijse.factory.enums.Devices;
+import lk.ijse.copypast.factory.enums.Devices;
 
 /**
  * @author : savindaJ

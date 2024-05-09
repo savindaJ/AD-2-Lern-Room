@@ -1,11 +1,10 @@
-package lk.ijse.factory;
+package lk.ijse.copypast.factory;
 
-import lk.ijse.factory.devices.Hard;
-import lk.ijse.factory.devices.Mouse;
-import lk.ijse.factory.devices.Ram;
-import lk.ijse.factory.devices.SuperDevice;
-import lk.ijse.factory.enums.Devices;
-import lk.ijse.factory.facory.Factory;
+import lk.ijse.copypast.factory.devices.Hard;
+import lk.ijse.copypast.factory.devices.Mouse;
+import lk.ijse.copypast.factory.devices.Ram;
+import lk.ijse.copypast.factory.enums.Devices;
+import lk.ijse.copypast.factory.facory.Factory;
 
 /**
  * @author : savindaJ

@@ -1,4 +1,4 @@
-package lk.ijse.factory.devices;
+package lk.ijse.copypast.factory.devices;
 
 /**
  * @author : savindaJ

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CopyPast/CopyPast.iml" filepath="$PROJECT_DIR$/CopyPast/CopyPast.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observar/Observar.iml" filepath="$PROJECT_DIR$/Observar/Observar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Creational/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Structural.iml" filepath="$PROJECT_DIR$/Structural/Structural.iml" />

@@ -1,4 +1,4 @@
-import lk.ijse.factory.singleton.Singleton;
+import lk.ijse.copypast.factory.singleton.Singleton;
 
 /**
  * @author : savindaJ
