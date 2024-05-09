@@ -6,12 +6,16 @@
       <list>
         <option value="$PROJECT_DIR$/Creational/pom.xml" />
         <option value="$PROJECT_DIR$/Structural/Facad/pom.xml" />
-        <option value="$PROJECT_DIR$/Structural/Facade/pom.xml" />
-        <option value="$PROJECT_DIR$/Structural/Decarator/pom.xml" />
         <option value="$PROJECT_DIR$/Creational/Factory-Design-Pattern/pom.xml" />
         <option value="$PROJECT_DIR$/Behavioural/pom.xml" />
         <option value="$PROJECT_DIR$/Behavioural/Stratergy/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/Decarator/Behavioral/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Behavioural/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
