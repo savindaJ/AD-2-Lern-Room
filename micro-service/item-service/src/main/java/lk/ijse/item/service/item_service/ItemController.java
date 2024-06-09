@@ -21,7 +21,7 @@ public class ItemController {
 
     @PostMapping("/save")
     public String saveItem(){
-        return restTemplate.postForObject("http://localhost:8081/api/v1/customer/save", null, String.class);
+        return restTemplate.postForObject("http://SPRINGBOOT-CUSTOMER-SERVICE/api/v1/customer/save", null, String.class);
     }
 
     @GetMapping
@@ -32,6 +32,7 @@ public class ItemController {
     @PostMapping("/customer-save")
     public String saveCustomer(){
         CustomerDTO customerDTO = new CustomerDTO("C001", "Savinda", "Galle");
-        return restTemplate.postForObject("http://localhost:8081/api/v1/customer/customer-save", customerDTO, String.class);
+        // using restTemplate to call the customer service , by using the service name
+        return restTemplate.postForObject("http://SPRINGBOOT-CUSTOMER-SERVICE/api/v1/customer/customer-save", customerDTO, String.class);
     }
 }
