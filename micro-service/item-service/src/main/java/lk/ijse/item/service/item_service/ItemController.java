@@ -28,4 +28,10 @@ public class ItemController {
     public String getItem(){
         return "Item Getted !";
     }
+
+    @PostMapping("/customer-save")
+    public String saveCustomer(){
+        CustomerDTO customerDTO = new CustomerDTO("C001", "Savinda", "Galle");
+        return restTemplate.postForObject("http://localhost:8081/api/v1/customer/customer-save", customerDTO, String.class);
+    }
 }

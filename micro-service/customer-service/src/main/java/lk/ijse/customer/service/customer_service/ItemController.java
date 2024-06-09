@@ -1,10 +1,7 @@
 package lk.ijse.customer.service.customer_service;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.http.HttpRequest;
@@ -30,4 +27,10 @@ public class ItemController {
 //    public String getItem(){
 //        return restTemplate
 //    }
+
+    @PostMapping("/customer-save")
+    public String saveCustomer(@RequestBody CustomerDTO customerDTO){
+        System.out.println(customerDTO.toString());
+        return customerDTO.toString();
+    }
 }
