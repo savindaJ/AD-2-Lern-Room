@@ -1,5 +1,5 @@
 spring:
   application:
-    name: spring-boot-item-service
+    name: spring-boot-customer-service
   config:
     import: "optional:configserver:http://localhost:8084"

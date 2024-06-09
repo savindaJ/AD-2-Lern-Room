@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: spring-boot-item-service
+    name: spring-boot-gateway-service
   cloud:
     gateway:
       mvc:
